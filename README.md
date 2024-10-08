@@ -1,1 +1,1 @@
-# lexicurium
+# Lexicurium
