@@ -6,7 +6,7 @@ Este proyecto tiene como objetivo crear un modelo de transcripción de audio uti
 
 ## MVP:
 
-### 1) Levantar un modelo de Whisper AI en local
+### 1) [Levantar un modelo de Whisper AI en local](https://github.com/openai/whisper)
 - El primer paso consiste en implementar y ejecutar localmente el modelo de Whisper AI utilizando Python y la biblioteca `whisper` de OpenAI.
 - Además, dockerizaremos este modelo junto con el script que utilice `whisper` y un script adicional para contar palabras y letras.
 
@@ -17,7 +17,7 @@ Este proyecto tiene como objetivo crear un modelo de transcripción de audio uti
   - Las dependencias necesarias definidas en un `requirements.txt`.
 
 ### 3) Crear un script para contar palabras y/o letras
-- Se implementará un script en Python que pueda contar palabras y/o letras de un texto proporcionado.
+- Se implementará un script en NodeJS que pueda contar palabras y/o letras de un texto proporcionado.
 - Este script será ejecutado automáticamente después de la transcripción del audio mediante Whisper AI o de manera independiente.
 
 ### 4) Crear un Makefile
